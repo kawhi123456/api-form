@@ -1,0 +1,168 @@
+{
+"id": "5e4a166c14f4ed882898f1c9",
+"applicantId": "5e4a166c14f4ed882898f1ca",
+"type": 0,
+"form": [
+{
+"multiline": false,
+"regex": null,
+"key": "name",
+"type": "input",
+"style": "search",
+"caption": "活动名称",
+"description": null,
+"required": true,
+"placeholder": "请输入活动名称",
+"value": null
+},
+{
+"multiline": false,
+"regex": {
+"pattern": "^\\d+$",
+"notification": "请输入非负整数"
+},
+"key": "budget",
+"type": "input",
+"style": "money",
+"caption": "预算",
+"description": null,
+"required": true,
+"placeholder": "请输入预算",
+"value": 0
+},
+{
+"multiline": false,
+"regex": {
+"pattern": "^\\w+([-+.]\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*$",
+"notification": "请输入正确邮箱地址"
+},
+"key": "email",
+"type": "input",
+"style": "email",
+"caption": "联系人邮箱",
+"description": null,
+"required": false,
+"placeholder": "请输入联系人邮箱",
+"value": null
+},
+{
+"multiline": false,
+"regex": null,
+"key": "activitystart",
+"type": "input",
+"style": "date",
+"caption": "活动开始时间",
+"description": null,
+"required": true,
+"placeholder": "请选择开始时间",
+"value": null
+},
+{
+"multiline": false,
+"regex": null,
+"key": "activityend",
+"type": "input",
+"style": "date",
+"caption": "活动结束时间",
+"description": null,
+"required": true,
+"placeholder": "请选择结束时间",
+"value": null
+},
+{
+"multiple": false,
+"source": {
+"items": [
+{
+"key": "进行中",
+"value": 0
+},
+{
+"key": "已结束",
+"value": 1
+}
+]
+},
+"key": "status",
+"type": "staticselect",
+"style": "dropdown",
+"caption": "活动状态",
+"description": "活动状态默认为进行中,请按需设置",
+"required": true,
+"placeholder": "请选择活动状态",
+"value": -1
+},
+{
+"multiple": false,
+"source": {
+"items": [
+{
+"key": "差评",
+"value": 0
+},
+{
+"key": "中评",
+"value": 1
+},
+{
+"key": "好评",
+"value": 2
+}
+]
+},
+"key": "evaluation",
+"type": "radio",
+"style": "dropdown",
+"caption": "宝贝评价",
+"description": "客官请给个好评",
+"required": true,
+"placeholder": "请选择评价",
+"value": -1
+},
+{
+"multiple": true,
+"source": {
+"items": [
+{
+"key": "开放日",
+"value": "开放日"
+},
+{
+"key": "媒体见面日",
+"value": "媒体见面日"
+},
+{
+"key": "线下论坛",
+"value": "线下论坛"
+}
+]
+},
+"key": "tags",
+"type": "staticselect",
+"style": "check",
+"caption": "标签选择",
+"description": "请选择活动所属标签",
+"required": true,
+"placeholder": "请选择活动标签",
+"value": []
+}
+],
+"results": [],
+"audits": [
+{
+"userId": "5e4a166c14f4ed882898f1cb",
+"updateDate": "2020-02-17T12:28:28.2721835+08:00",
+"result": 0
+},
+{
+"userId": "5e4a166c14f4ed882898f1cc",
+"updateDate": "2020-02-17T12:28:28.2722297+08:00",
+"result": 0
+}
+],
+"cc": [
+"5e4a166c14f4ed882898f1cd"
+],
+"creationDate": "2020-02-17T12:28:28.2710531+08:00",
+"updateDate": "2020-02-17T12:28:28.2716865+08:00"
+}

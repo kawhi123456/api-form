@@ -1,0 +1,35 @@
+{
+"id": "5e4a20ba2e1c0577a0bbaea4",
+"name": "报销单",
+"auditType": 0,
+
+"audits": {
+"includeApplicant": false,
+"includeSupervisor": true,
+"roleIds": [
+"5e4a20ba2e1c0577a0bbaea8"
+],
+"positions": [
+"5e4a20ba2e1c0577a0bbaea9"
+],
+"userIds": [
+"5e4a20ba2e1c0577a0bbaeaa"
+]
+},
+
+抄送
+
+"cc": {
+"includeApplicant": false,
+"includeSupervisor": false,
+"roleIds": [
+"5e4a20ba2e1c0577a0bbaea5"
+],
+"positions": [
+"5e4a20ba2e1c0577a0bbaea6"
+],
+"userIds": [
+"5e4a20ba2e1c0577a0bbaea7"
+]
+}
+}
